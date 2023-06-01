@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import dataSource from "../utils";
-import { Wilder } from "../entity/wilder";
+import { Wilder } from "../model/wilder";
 
 const wilderController = {
   create: async (req: Request, res: Response) => {

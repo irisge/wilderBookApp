@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import dataSource from "../utils";
-import { Grade } from "../entity/grade";
+import { Grade } from "../model/grade";
 
 const gradeController = {
   create: async (req: Request, res: Response) => {

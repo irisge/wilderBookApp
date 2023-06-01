@@ -1,7 +1,7 @@
 import { DataSource } from "typeorm";
-import { Grade } from "./entity/grade";
-import { Skill } from "./entity/skill";
-import { Wilder } from "./entity/wilder";
+import { Grade } from "./model/grade";
+import { Skill } from "./model/skill";
+import { Wilder } from "./model/wilder";
 
 const dataSource = new DataSource({
   type: "sqlite",

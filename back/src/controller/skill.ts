@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import dataSource from "../utils";
-import { Skill } from "../entity/skill";
+import { Skill } from "../model/skill";
 
 const skillController = {
   create: async (req: Request, res: Response) => {
